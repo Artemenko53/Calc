@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  height: 100vh;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.numbers {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.num {
+  border: none;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+#res {
+  color: black;
+  background-color: rgb(197, 197, 197);
+}
+
+.equals {
+  margin-top: 10px;
+  background-color: aliceblue;
+  border: none;
+  height: 30px;
+  width: 40px;
+  border-radius: 8px;
+}
